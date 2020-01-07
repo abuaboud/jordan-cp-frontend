@@ -1,0 +1,28 @@
+<section>
+  <h1>Contributors</h1>
+  <hr>
+  <!-- Section: Team v.1 -->
+  <section class="team-section text-center my-5">
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div *ngFor="let contributor of allContributors" class="col-lg-2 col-md-2">
+        <div class="avatar mx-auto">
+          <img src="../../assets/img/contributors/{{contributor.pictureName}}" style="height: 7rem; width: 7rem;" class="rounded-circle z-depth-1">
+        </div>
+        <h6 class="mt-4 mb-3">{{contributor.name}}</h6>
+        <p class="text-uppercase blue-text"><strong>{{contributor.role}}</strong></p>
+        <p class="grey-text"></p>
+      </div>
+
+
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </section>
+  <!-- Section: Team v.1 -->
+
+</section>

@@ -1,0 +1,123 @@
+
+   [
+     {
+       "name": "General",
+       "topics": [
+         {
+           "name": "Introduction to the competitive programming",
+           "relativeMarkdownUrl": "general/introduction_competitive_programming.md"
+         },
+         {
+           "name": "Complexity And BruteForce",
+           "relativeMarkdownUrl": "general/complexity.md"
+         },
+         {
+           "name": "Frequency Array",
+           "relativeMarkdownUrl": "general/frequency_array.md"
+         },
+         {
+           "name": "Standard Template Library STL",
+           "relativeMarkdownUrl": "general/stl.md"
+         },
+         {
+           "name": "Prefix Sum",
+           "relativeMarkdownUrl": "general/prefix_sum.md"
+         },
+         {
+           "name": "Binary Search",
+           "relativeMarkdownUrl": "general/binary_search.md"
+         },
+         {
+           "name": "Two Pointers",
+           "relativeMarkdownUrl": "general/two_pointers.md"
+         }
+       ]
+     },
+     {
+       "name": "Data Structure",
+       "topics": [
+         {
+           "name": "Segment Tree",
+           "relativeMarkdownUrl": "data_structure/segment_tree.md"
+         },
+         {
+           "name": "Segment Tree - Lazy Propagation",
+           "relativeMarkdownUrl": "data_structure/lazy_propagation.md"
+         },
+         {
+           "name": "Binary Indexed Tree",
+           "relativeMarkdownUrl": "data_structure/binary_indexed_tree.md"
+         }
+       ]
+     },
+     {
+       "name": "Dynamic Programming",
+       "topics": [
+         {
+           "name": "Basic Dynamic Programming",
+           "relativeMarkdownUrl": "dynamic_programming/dp-basic.md"
+         }
+       ]
+     },
+      {
+        "name": "Graph Theory",
+        "topics": [
+          {
+            "name": "Introduction to Graph Theory",
+            "relativeMarkdownUrl": "graph_theory/introduction_graph_theory.md"
+          },
+          {
+            "name": "Depth First Search",
+            "relativeMarkdownUrl": "graph_theory/depth_first_search.md"
+          },
+          {
+            "name": "Breadth First Search",
+            "relativeMarkdownUrl": "graph_theory/breadth_first_search.md"
+          },
+          {
+            "name": "Dijkstra",
+            "relativeMarkdownUrl": "graph_theory/dijsktra.md"
+          },
+          {
+            "name": "Disjoint sets",
+            "relativeMarkdownUrl": "graph_theory/disjoint_sets.md"
+          },
+          {
+            "name": "Minimum & Maximum spanning tree",
+            "relativeMarkdownUrl": "graph_theory/minimum_spanning_tree.md"
+          },
+          {
+            "name": "Topological Sort",
+            "relativeMarkdownUrl": "graph_theory/topological_sort.md"
+          },
+          {
+            "name": "Lowest Common Ancestor",
+            "relativeMarkdownUrl": "graph_theory/lowest_common_ancestor.md"
+          },
+          {
+            "name": "Strongly Connected Components",
+            "relativeMarkdownUrl": "graph_theory/strongly_connected_components.md"
+          }
+
+        ]
+      },
+     {
+       "name": "Combinatorics",
+       "topics": [
+         {
+           "name": "Rule of Sum and Product and Inclusion Exclusion",
+           "relativeMarkdownUrl": "combinatorics/rule_of_sum_and_product_and_inclusion_exclusion.md"
+         },
+         {
+           "name": "Permutation and combination",
+           "relativeMarkdownUrl": "combinatorics/permutation_and_combination.md"
+         },
+         {
+           "name": "Stars and bars",
+           "relativeMarkdownUrl": "combinatorics/stars_and_bars.md"
+         }
+       ]
+     }
+
+  ]
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+<!--================Header Menu Area =================-->
+<header class="header_area">
+  <div class="main_menu">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container box_1620">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <a class="navbar-brand logo_h" routerLink="/"><h2 style="color:white; font-weight: bold;">JordanCP</h2></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+          <ul class="nav navbar-nav menu_nav justify-content-end">
+            <li class="nav-item"><a class="nav-link" routerLink="/">Home</a></li>
+            <li class="nav-item"><a class="nav-link"  routerLink="topics">Blogs</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+<!--================Header Menu Area =================-->
+
+<router-outlet></router-outlet>
+
+
+<!-- ================ start footer Area ================= -->
+<footer class="footer-area section-gap ">
+  <div class="container">
+    <div class="footer-bottom row align-items-center text-center text-lg-left">
+      <p class="footer-text m-0 col-lg-8 col-md-12">Copyright &copy;JordanCP All rights reserved</p>
+      <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
+        <a href="https://www.facebook.com/groups/357325854467689/"><img src="../assets/img/home/facebook.png"></a>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- ================ End footer Area ================= -->
+
+
+
+</body>
+</html>

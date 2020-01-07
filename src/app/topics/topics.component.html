@@ -1,0 +1,18 @@
+<section style="margin-top: 100px; min-height: 83vh; padding-top: 40px;">
+  <div class="container">
+    <h1>All Topics</h1>
+    <hr>
+    <ul>
+     <li *ngFor="let category of allCategories">
+       <h3>{{category.name}}</h3>
+        <ul>
+          <li *ngFor="let topic of category.topics">
+            <a target="_blank" style="text-decoration: none; color: black"  [routerLink]="['/blog/'+ topic.name.toLowerCase().split(' ').join('_')]" > <h6>{{topic.name}}</h6></a>
+          </li>
+         </ul>
+     </li>
+    </ul>
+
+    <app-contributors></app-contributors>
+  </div>
+</section>
