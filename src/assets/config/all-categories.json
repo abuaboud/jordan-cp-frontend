@@ -95,6 +95,10 @@
             "relativeMarkdownUrl": "graph_theory/lowest_common_ancestor.md"
           },
           {
+            "name": "Bridges and Articulation Points",
+            "relativeMarkdownUrl": "graph_theory/bridges_and_articulation_points.md"
+          },
+          {
             "name": "Strongly Connected Components",
             "relativeMarkdownUrl": "graph_theory/strongly_connected_components.md"
           }
@@ -115,6 +119,32 @@
          {
            "name": "Stars and bars",
            "relativeMarkdownUrl": "combinatorics/stars_and_bars.md"
+         }
+       ]
+     },
+     {
+       "name": "Game Theory",
+       "topics": [
+         {
+           "name": "Nim Game",
+           "relativeMarkdownUrl": "game_theory/nim_game.md"
+         }
+       ]
+     },
+     {
+       "name": "Strings",
+       "topics": [
+         {
+           "name": "Trie",
+           "relativeMarkdownUrl": "strings/trie.md"
+         },
+         {
+           "name": "KMP",
+           "relativeMarkdownUrl": "strings/kmp.md"
+         },
+         {
+           "name": "Suffix Array",
+           "relativeMarkdownUrl": "strings/suffix_array.md"
          }
        ]
      }
