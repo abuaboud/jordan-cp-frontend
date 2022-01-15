@@ -22,7 +22,7 @@
     "bootstrap": "^4.4.1",
     "gulp": "^4.0.2",
     "jquery": "^3.4.1",
-    "marked": "^0.8.0",
+    "marked": "^4.0.10",
     "ngx-bootstrap": "^5.2.0",
     "ngx-markdown": "^8.2.1",
     "prismjs": "^1.17.1",
