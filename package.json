@@ -21,7 +21,7 @@
     "@angular/router": "~8.2.14",
     "bootstrap": "^4.4.1",
     "gulp": "^4.0.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "marked": "^0.8.0",
     "ngx-bootstrap": "^5.2.0",
     "ngx-markdown": "^8.2.1",
